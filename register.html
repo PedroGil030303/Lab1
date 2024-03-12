@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+
+    <button onclick="back()"> Back</button>
+</head>
+
+<body >
+
+<div class="caixas">
+
+    <h1 class="centrar"> Registar</h1>
+
+    <p class="centrar">
+        <label> Nome:</label>
+        <input type="text" maxlength="60" size="60">
+    </p>
+    <p class="centrar">
+        <label > Email:</label>
+        <input type="email" maxlength="35" size="55">
+    </p>
+    <p class="centrar">
+        <label > Password:</label>
+        <input type="password"  maxlength="25" size="40">
+    </p>
+
+    <p class="centrar">
+        <label > Confirmar Password:</label>
+        <input type="password"  maxlength="30" size="50">
+    </p>
+    
+    <p class="centrar">
+        <input type="checkbox"> Concordo com os <a href="termos.html"> Termos de Uso </a> e a <a href="privacidade.html"> Politica de Privacidade</a>
+    </p>
+
+    <p class="centrar">
+        <button> Registar</button>
+    </p>
+</div>
+
+<script>
+    function back(){
+        window.location.href="frente.html"
+    }
+</script>
+</body>
+</html>
